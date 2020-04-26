@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Number Conversion</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
+			let valueDouble = 8.75;
+			let valueInt = valueDouble | 0;
+			alert("Convert floating-point to integer number: " + valueDouble + " --> " +valueInt);
+
+			valueDouble = 8.75;
+			valueInt = (valueDouble  + 0.5) | 0;
+			alert("Convert floating-point to integer number with rounding: " + valueDouble + " --> " +valueInt);
+
+			let str = '1234';
+			let i = str | 0 + 1;
+			alert("Convert string to integer: " + str + " --> " + i);
+		</script>
+	</body>
+</html>
